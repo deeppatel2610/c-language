@@ -8,7 +8,7 @@ void cube(int *b,int n)
         for(j=0;j<n;j++)
         {
             printf("%d ",(*b) * (*b) * (*b));
-            *b=*b+1;
+            *b++;
         }
     }
 }
